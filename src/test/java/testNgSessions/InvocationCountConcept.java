@@ -1,0 +1,13 @@
+package testNgSessions;
+
+import org.testng.annotations.Test;
+
+public class InvocationCountConcept {
+	String name = "Testing";
+
+	@Test(invocationCount = 10)
+	public void homePageTest() {
+		System.out.println("homePageTest");
+	}
+
+}
